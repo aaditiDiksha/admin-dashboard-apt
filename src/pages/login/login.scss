@@ -1,0 +1,59 @@
+.login {
+  margin: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin: 0;
+  .title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   padding: 20px;
+  color:rgba(65,14,86) ;
+  }
+
+  form {
+    flex: 10;
+    padding: 3em;
+    border-radius: 8px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.25);
+    .formInput {
+      input {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid gray;
+        &:focus {
+          outline: none;
+          border-bottom: solid 2px rgb(65, 13, 86);
+        }
+      }
+    }
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: rgba(113, 35, 144, 0.982);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
+}

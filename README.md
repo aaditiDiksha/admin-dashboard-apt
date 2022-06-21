@@ -1,3 +1,8 @@
+### Features
+1. Login UI, click login to go to admin dashboard
+2. On dashboard click on users in side navigation bar to view list of users
+3. Logout on side navigation takes you back to login screen
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
